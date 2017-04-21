@@ -36,7 +36,7 @@ ul.nav
   font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 0 50px;
-  color:white;
+  color:#d9edf7;
   margin-bottom: 30px;
 
 
@@ -52,4 +52,40 @@ ul.nav
   margin-bottom:50px;
   font-size: 63px;
 
+}
+@media (max-width: 767px)
+{
+
+.jumbotron h1 {
+    font-size: 40px;
+}
+}
+@media (max-width:767px)
+{
+  .jumbotron p
+  {
+    font-size:20px;
+    text-align:center;
+  }
+
+.logo
+{
+    overflow: hidden;
+    height:150px;
+
+}
+.img-fluid
+{
+    max-width:100%;
+    height:auto;
+    margin-top:-2px;
+}
+.navbar-brand {
+  padding: 0px 13px 0px ;
+  padding-top:5px;
+}
+.navbar-brand>img {
+  height: 130%;
+  padding: 15px;
+  width: auto;
 }
