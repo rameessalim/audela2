@@ -1,0 +1,55 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+@media(min-width:768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
+.jumbotron 
+{
+  background-color:rgba(0,0,0,0.5);
+  height:100%;
+  width:100%;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  color:white;
+
+
+}
+ul.nav
+{
+    font-family: 'Quicksand', sans-serif;
+}
+.jumbotron p
+{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 0 50px;
+  color:white;
+  margin-bottom: 30px;
+
+
+
+}
+.jumbotron h1
+{
+  font-family: 'Arvo', serif;
+  text-align: center;
+  margin-top:0px;
+  position:relative;
+
+  margin-bottom:50px;
+  font-size: 63px;
+
+}
